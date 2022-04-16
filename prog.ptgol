@@ -1,0 +1,27 @@
+inicio
+	inteiro:a;
+	imprima("digite um valor para a: ");
+	leia(a);
+	
+	se a = 5 entao
+		imprima("igual a 5");
+	senao
+		imprima("diferente de 5");
+	fim_se
+	
+	inteiro:b;
+	inteiro:c;
+	
+	imprima("digite um valor para c: ");
+	leia(c);
+	
+	para b <- 0 ate c passo 2
+		imprima(b);
+	
+	
+	se a > 5 entao
+		a =1;
+	senao
+		a = 2;
+	fim_se
+fim
